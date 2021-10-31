@@ -1,0 +1,28 @@
+DIRTY IGUANA
+
+Cristopher just came out of the pet shop with a cute little iguana. He named her Samantha, now Samantha has a lot of troubles. Her cage needs to be cleaned out regularly multiple times a day!
+Empirically Cristopher learned that in order to Samantha feel good her cage needs to be cleaned at least k times in two consecutive days. For eg. if k = 3 and yesterday christopher cleaned the cage 1 time today he needs to clean it 2 times so Samantha remains happy.
+Christopher maintains a journal of daily tasks and he has made plans for the next n days writing a sequence of n integers a1, a2, ..., an where ai is the number of times christopher will clean the
+cage on the i th day.
+But Cristopher has made the journal according to his convenience. Make amends in the journal so that Samantha is not forgotten for all the n days. Write a program that will find the minimum number of times Christopher has to clean the cage.
+
+INPUT
+
+The first line contains the integer t, denoting the number of test cases. For each test case, the first line contains two space separated integers n and k (1 ≤ n, k ≤ 500) - the number of days and minimum number of times to clean the cage in 2 consecutive days.
+The second line contains integers a1 , a2 , ..., an (0 ≤ ai≤ 500) - the number of times christopher has planned to clean the cage for n days in his journal.
+
+OUTPUT
+
+In the first line print the smallest number of times Cristopher should clean the cage so that Samantha feels good for n days.
+In the second line print n integers b1, b2 , ..., bn , where bi — the total number of times cage cleaned on the i-th day according to the found solutions (ai ≤ bi for all i from 1 to n).
+
+SAMPLE INPUT/OUTPUT
+
+Input
+1
+3 5
+2 0 1
+
+Output
+4
+2 3 2

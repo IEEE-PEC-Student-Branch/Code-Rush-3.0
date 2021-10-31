@@ -1,0 +1,27 @@
+Illuminati Fanatic
+
+Pasha is a member of mysterious Illuminati organization.
+In an imaginary infinite plane there are infinite no of integer coordinates.
+Pasha is obsessed with triangles and wants to construct triangles but his demands are dark. For a triangle to be considered an illuminati triangle it must enclose an odd number of integer coordinates and the area of the triangle must be an integer.
+Write a program to help find pasha the maximum number of illuminati triangles that can be formed from n given coordinates, which are guaranteed not to lie on the same line.
+
+INPUT
+
+The first line contains the integer t, denoting the number of test cases. For each test case, the first line contains an integer n (3<n<6000), the number of coordinates which Pasha can choose as the vertices of the triangle.
+Each of the next n lines contains two integers x and y (0≤x,y≤10^7) x,y are even where x and y are the coordinates of the vertices of the triangle. All coordinates are distinct and no three of them lie in the same line.
+
+OUTPUT
+
+Print the number of illuminati triangles that can be constructed. Two illuminati triangles are said to be different if constructed using three different coordinates.
+
+Input
+1
+5
+0 0
+2 16
+30 14
+4 6
+2 10
+
+Output
+3
